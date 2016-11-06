@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ant_window</class>
+ <widget class="QWidget" name="ant_window">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>216</width>
+    <height>330</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Noto Sans [unknown]</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>ANT+</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QLabel {font: 36pt &quot;Noto Sans [unknown]&quot;;}</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QGroupBox" name="hr_groupbox">
+     <property name="title">
+      <string>heart rate (BPM)</string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLabel" name="hr">
+        <property name="text">
+         <string>-----</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="hr_groupbox_2">
+     <property name="title">
+      <string>heart rate 2 (BPM)</string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QLabel" name="hr_2">
+        <property name="text">
+         <string>-----</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="cadence_groupbox">
+     <property name="title">
+      <string>cadence (RPM)</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QLabel" name="cadence">
+        <property name="text">
+         <string>-----</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
